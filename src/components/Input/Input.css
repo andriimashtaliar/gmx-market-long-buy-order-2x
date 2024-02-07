@@ -1,0 +1,90 @@
+.input-container {
+    min-height: 6.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5rem;
+    margin-bottom: 1.05rem;
+    border-radius: 0.3rem;
+    background: linear-gradient(90deg, rgba(30, 34, 61, 0.9) 0%, rgba(38, 43, 71, 0.9) 100%);
+    outline: 0.05rem solid transparent;
+    outline-offset: -0.1rem;
+    font-size: 1.5rem;
+}
+
+.input-container:hover {
+    outline-color: rgba(58, 63, 121, 0.4);
+}
+
+.input-container:focus-within {
+    outline-color: #3a3f79;
+}
+
+.input-container--top-row {
+    display: inline-flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+}
+
+.input-container--top-row--left {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.input-container--top-row--right {
+    cursor: pointer;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.input-container--swap-section {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding-bottom: 0.31rem;
+}   
+
+.input-container--swap-section-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+
+.input-container--swap-section-input {
+    padding: 0;
+    max-width: 100%;
+    font-size: 2.4rem;
+    width: 100%;
+    padding-right: 2rem;
+    color: white;
+    outline: none;
+    background: none;
+    border: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.input-container--swap-section-coin {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    font-size: 2.1rem;
+    text-align: right;
+    color: #ffffff;
+    border-radius: 0.4rem;
+    justify-content: flex-end;
+    line-height: 2.5rem;
+    min-width: 4.65rem;
+}
+
+.input-container--swap-section-coin-content {
+    text-align: right;
+    white-space: nowrap;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    line-height: 0.85;
+}

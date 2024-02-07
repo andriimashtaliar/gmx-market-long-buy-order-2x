@@ -1,0 +1,22 @@
+.info-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: 1.4rem;
+    align-items: baseline;
+    opacity: 1;
+    margin-bottom: 0.5rem;
+}
+
+.info-container-label {
+    margin-right: 0.8rem;
+    opacity: 1;
+    color: rgba(255, 255, 255, 0.7);
+    justify-content: flex-end;
+    text-align: left;
+}
+
+.info-container-value {
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+}

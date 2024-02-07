@@ -1,0 +1,33 @@
+.button-container {
+    padding-top: 0.31rem;
+}
+
+.button-container-btn {
+    outline: none;
+    font-size: 1.4rem;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: normal;
+    border: none;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    background: #2d42fc;
+    color: #fff;
+    border-radius: 0.3rem;
+    padding: 1.65rem 1.6rem;
+    line-height: 1;
+    box-shadow: none;
+    opacity: 0.8;
+}
+
+.button-container-btn:not([disabled]):hover {
+    background: #4d5ffa;
+    box-shadow: 0 0 0.4rem 0.5rem rgba(45, 66, 252, 0.1);
+}
+
+.button-container-btn:not([disabled]):active {
+    background-color: #4d5ffa;
+    box-shadow: 0 0 0.4rem 0.6rem rgba(45, 66, 252, 0.1);
+}
